@@ -41,11 +41,3 @@ disp(['El Error cuadratico medio para un ajuste lineal es: ', num2str(ECM1)]);
 disp(['El Error cuadratico medio para un ajuste polinomial grado 2 es: ', num2str(ECM2)]);
 disp(['El Error cuadratico medio para un ajuste polinomial grado 3 es: ', num2str(ECM3)]);
 disp(['El ajuste polinomial que más se acopla a los datos arrojados es el polinomial de grado 3, con un error cuadratico medio de: ', num2str(ECM3)]);
-
-%error1 = mean((pop - p1).^2)
-%error2 = mean((pop - p2).^2)
-%error3 = mean((pop - p3).^2)
-
-%err1 = sqrt(mean((pop - p1).^2));
-%err2 = sqrt(mean((pop - p2).^2));
-%err3 = sqrt(mean((pop - p3).^2));
